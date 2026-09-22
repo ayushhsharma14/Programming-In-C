@@ -14,8 +14,6 @@ int main()
 
     area = side*side;
 
-    //
-
     printf("The area of square with side %d is %d ", area, side);
 
     return 0;
