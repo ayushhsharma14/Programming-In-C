@@ -22,7 +22,7 @@ int main ()
 
     else
     {
-        printf("You are not a senior citizen \nYou are not eligible to vote ");
+        printf("You are not a senior citizen \nYou are eligible to vote ");
     }
 
     return 0;
