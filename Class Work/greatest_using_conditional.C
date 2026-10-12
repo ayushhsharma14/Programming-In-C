@@ -4,12 +4,13 @@
 
 int main()
 {
-    int a,b,c,greatest;
+    int a,b,c,greatest,temp;
 
     printf("Enter three numbers: ");
     scanf("%d %d %d",&a,&b,&c);
 
-    greatest = (a>b)?((b<c)?a:c):((b>c)?b:c);
+    temp = (a > b)? (temp = a) : (temp = b);;
+    greatest = (temp > c)? (temp) : (c);
 
     printf("The greatest number is: %d\n",greatest);
 
