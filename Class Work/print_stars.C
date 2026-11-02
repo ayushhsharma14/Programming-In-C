@@ -4,7 +4,7 @@
 
 int main()
 {
-    int i, j;
+    int i,j;
 
     for(j=1; j<=3; j++)
     {
@@ -14,7 +14,6 @@ int main()
         }
         printf("\n");
     }
-    
 
     return 0;
 }
